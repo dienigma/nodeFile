@@ -1,5 +1,6 @@
-var xyz = require('./ths')
-// var a = "Hello from root";
+var m = require('./math')
+var p = require('./person')
 
 
-xyz
+var x = new p("Chinmay",24,2500,7000)
+console.log(m(x.foodExp,x.rent))
