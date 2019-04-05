@@ -1,3 +1,5 @@
-var b = require('./root')
+var b = require('./root');
+var c = "Hello from child"
+// console.log(b);
 
-console.log(b)
+module.exports = c;

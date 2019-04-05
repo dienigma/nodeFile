@@ -1,3 +1,8 @@
-var a = "Hello from root"
+var x = require('./child1')
 
-module.exports = a
+var a = "Hello from root";
+console.log(x)
+
+module.exports = a;
+
+
