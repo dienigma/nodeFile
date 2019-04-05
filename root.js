@@ -1,4 +1,4 @@
-var x = require('./child1')
+var x = require('./ths/child1')
 
 var a = "Hello from root";
 console.log(x)
