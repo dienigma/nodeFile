@@ -1,6 +1,5 @@
-var m = require('./math')
-var p = require('./person')
+var a = "Hello from root file"
+module.exports = a;
 
-
-var x = new p("Chinmay",24,2500,7000)
-console.log(m(x.foodExp,x.rent))
+var d = require("./ths")
+console.log(d)
